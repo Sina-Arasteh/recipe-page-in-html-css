@@ -2,19 +2,25 @@
     font-family: young-serif;
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
-
 @font-face {
     font-family: outfit;
-    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf), url(assets/fonts/outfit/static/Outfit-Light.ttf), url(assets/fonts/outfit/static/Outfit-Thin.ttf)
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
 body {
     background-color: hsl(30, 54%, 90%);
+    font-family: outfit;
+    
+    color: hsl(30, 10%, 34%);
+
+}
+
+p {
     font-size: 16px;
 }
 
 #container {
-    padding: 30px;
+    padding: 35px;
     background-color: hsl(0, 0%, 100%);
     width: 50%;
     border-radius: 20px;
@@ -29,9 +35,10 @@ img {
    
 }
 
-h1 {
+h1, h2 {
     font-family: young-serif;
     font-weight: 400;
+    color: hsl(14, 45%, 36%);
 }
 
 #preparation {
@@ -40,17 +47,16 @@ h1 {
     border-radius: 10px;
 }
 
+ol > li {
+    margin-bottom: 10px;
+}
+
 .bol {
     font-weight: bold;
 }
 
 .bottom_line {
     border-bottom: 1px solid hsl(30, 18%, 87%);
-}
-
-h2 {
-    font-family: young-serif;
-    color: hsl(14, 45%, 36%);
 }
 
 .container {
@@ -72,6 +78,10 @@ h2 {
 
 .padd {
     padding: 10px 0;
+}
+
+.left_padd {
+    padding-left: 30px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
