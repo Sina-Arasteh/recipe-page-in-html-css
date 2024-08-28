@@ -10,22 +10,20 @@
 
 body {
     background-color: hsl(30, 54%, 90%);
-    padding: 65px 300px;
-    
+    font-size: 16px;
 }
-
-
 
 #container {
     padding: 30px;
     background-color: hsl(0, 0%, 100%);
+    width: 50%;
     border-radius: 20px;
-    margin-bottom: 50px;
-   
+    margin: 50px auto;
+    
 }
 
 img {
-    width: 670px;
+    width: 100%;
     height: 360.4px;
     display: block;
     margin: 0 auto;
@@ -47,6 +45,18 @@ h1 {
 h2 {
     font-family: young-serif;
     color: hsl(14, 45%, 36%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+#nutrition {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
 .attribution { font-size: 11px; text-align: center; }
