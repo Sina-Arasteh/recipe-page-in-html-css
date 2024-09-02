@@ -25,6 +25,7 @@ body {
 
 img {
     width: 100%;
+    height: 100%;
     border-radius: 10px; 
 }
 
@@ -95,4 +96,24 @@ li::marker {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@media (max-width: 375px) {
+    body {
+        margin: 0;
+    }
 
+    #container {
+        width: 100vw;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #smaller_container {
+        padding: 0 35px 35px;
+    }
+}
