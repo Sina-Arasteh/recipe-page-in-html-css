@@ -20,7 +20,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     width: 50vw;
     border-radius: 20px;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 img {
@@ -92,9 +92,20 @@ li::marker {
     padding-left: 30px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+#attribution {
+    text-align: center;
+    margin-bottom: 25px;
+}
 
-.attribution a { color: hsl(228, 45%, 44%); }
+#attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+#attribution a:hover {
+    color: yellowgreen;
+    font-size: 17px;
+}
 
 @media (max-width: 375px) {
     body {
@@ -103,7 +114,7 @@ li::marker {
 
     #container {
         width: 100vw;
-        margin: 0;
+        margin: 0 0 30px;
         border-radius: 0;
         padding: 0;
     }
