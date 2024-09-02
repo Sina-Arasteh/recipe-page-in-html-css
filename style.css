@@ -10,45 +10,32 @@
 body {
     background-color: hsl(30, 54%, 90%);
     font-family: outfit;
-    
-    color: hsl(30, 10%, 34%);
-
-}
-
-p {
     font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
 }
 
 #container {
     padding: 35px;
     background-color: hsl(0, 0%, 100%);
-    width: 50%;
+    width: 50vw;
     border-radius: 20px;
     margin: 50px auto;
-    
 }
 
 img {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-   
+    border-radius: 10px; 
 }
-
-
 
 h1, h2 {
     font-family: young-serif;
-    font-weight: 400;
+    font-weight: 600;
     color: hsl(24, 5%, 18%);
 }
 
 h2 {
     color: hsl(14, 45%, 36%);
-}
-
-span {
-    font-weight: bold;
 }
 
 #preparation {
@@ -57,26 +44,26 @@ span {
     border-radius: 10px;
 }
 
+#perp {
+    font-weight: 700;
+}
+
+span {
+    font-weight: 600;
+}
+
 ol, ul {
     padding-left: 23px;
 }
+
 li {
     margin-bottom: 10px;
     padding-left: 15px;
-    margin-left: 0px;
 }
 
 li::marker {
     color: hsl(14, 45%, 36%);
-    
-}
-
-ol > li::marker {
-    font-weight: bold;
-}
-
-.bol {
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .bottom_line {
@@ -85,13 +72,7 @@ ol > li::marker {
     margin-bottom: 20px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-}
-
-#nutrition {
+.grid_container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -99,7 +80,7 @@ ol > li::marker {
 
 .rose {
     color: hsl(14, 45%, 36%);
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .padd {
@@ -113,3 +94,5 @@ ol > li::marker {
 .attribution { font-size: 11px; text-align: center; }
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
